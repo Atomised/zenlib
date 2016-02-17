@@ -3,7 +3,7 @@
 # except ImportError:
 # #This should not be the case though
 # from distutils.core import setup
-from distutils.core import setup	
+from distutils.core import setup
 from distutils.extension import Extension
 from Cython.Distutils import build_ext
 import os.path
@@ -69,7 +69,8 @@ setup(
 	'zen.data' : ['*.scn','*.gml'] },
 	# # dependencies
 	setup_requires = ['distribute','cython>=0.14'],
-	install_requires = ['numpy>=1.6.1','matplotlib>=1.0.1', 'networkx'],
+	# install_requires = ['numpy>=1.6.1','matplotlib>=1.0.1', 'networkx'],
+	install_requires = ['numpy>=1.6.1', 'networkx'],
 	#
 	# # testing suite
 	# test_suite = 'zen.test',
