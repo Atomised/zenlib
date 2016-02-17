@@ -7,7 +7,7 @@ functionality currently implemented focuses on the perspective and machinery pro
 Reachability
 ------------
 
-Under structural controllability, a set of directly controlled nodes can control a limited set of other nodes.  The 
+Under structural controllability, a set of directly controlled nodes can control a limited set of other nodes.  The
 number of such nodes that can be controlled is called the *reachability* or *generic rank* of the network under those
 controls.
 
@@ -37,4 +37,4 @@ networks.  Two functions are provided for this purpose.
 #from cacti import Cacti
 from profile import profile
 from reachability import num_min_controls #, kalman_generic_rank
-from pplot import profile_plot, profile_heatmap, profile_heatmap_weighted
+# from pplot import profile_plot, profile_heatmap, profile_heatmap_weighted
